@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5B001FB-7625-4C42-9638-9F0AAD1C5F2B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.RedisCache.API", "Lab.RedisCache.API\Lab.RedisCache.API.csproj", "{67E365A7-3C73-45A2-9C0B-E786CEF164D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.RedisCache.Application", "Lab.RedisCache.Application\Lab.RedisCache.Application.csproj", "{ED232F30-4D77-47AE-B9EC-D731796DFC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab.RedisCache.Core", "Lab.RedisCache.Core\Lab.RedisCache.Core.csproj", "{E7545DEF-9FCB-476D-95E2-F15744E22137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E365A7-3C73-45A2-9C0B-E786CEF164D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E365A7-3C73-45A2-9C0B-E786CEF164D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E365A7-3C73-45A2-9C0B-E786CEF164D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E365A7-3C73-45A2-9C0B-E786CEF164D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED232F30-4D77-47AE-B9EC-D731796DFC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED232F30-4D77-47AE-B9EC-D731796DFC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED232F30-4D77-47AE-B9EC-D731796DFC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED232F30-4D77-47AE-B9EC-D731796DFC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7545DEF-9FCB-476D-95E2-F15744E22137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7545DEF-9FCB-476D-95E2-F15744E22137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7545DEF-9FCB-476D-95E2-F15744E22137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7545DEF-9FCB-476D-95E2-F15744E22137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
