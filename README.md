@@ -8,3 +8,8 @@
 
 ## Application
 - StackExchange.Redis - v2.9.11
+
+
+# Comandos
+
+Rodado redis via docker: sudo docker run -p 6379:6379 --name redis-master -e REDIS_REPLICATION_MODE=master -e REDIS_PASSWORD=minhaSenhaSegura123 bitnami/redis:latest
