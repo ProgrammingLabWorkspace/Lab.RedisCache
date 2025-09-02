@@ -1,14 +1,17 @@
-# Redis
+# Visão geral
+Esta aplicação trata-se apenas um exemplo do uso do Redis para fazer cache de resultados de requisições.
 
+# Redis
 - Banco de dados em memória;
 - Geralmente é usado para fazer cache de dados;
 	- Trabalha com sistema de chave e valor.
 
 # Pacotes
-
 ## Application
 - StackExchange.Redis - v2.9.11
 
+## API
+- DotNetEnv - v3.1.1
 
 # Comandos
 
