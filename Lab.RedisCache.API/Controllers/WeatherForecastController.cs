@@ -22,14 +22,21 @@ namespace Lab.RedisCache.API.Controllers
             _cacheService = cacheService;
         }
 
+        /// <summary>
+        /// Obtém a cache utilizada para armazenar itens no cache.
+        /// </summary>
         private string CacheKey
         {
             get
             {
-                var connectionId = HttpContext.Connection.Id;
+                //var connectionId = HttpContext.Connection.Id;
+                //var weatherForecastName = nameof(WeatherForecast);
+
+                //return $"{connectionId}_{weatherForecastName}";
+
                 var weatherForecastName = nameof(WeatherForecast);
 
-                return $"{connectionId}_{weatherForecastName}";
+                return weatherForecastName;
             }
         }
 
